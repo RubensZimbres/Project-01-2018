@@ -12,6 +12,7 @@ import argparse
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--epoch', dest='nb_epoch', type=int, default=5, help='# of epochs')
 parser.add_argument('--batch_size', dest='batch_size', type=int, default=100, help='# images in batch')
+parser.add_argument('--verbose', dest='verbose', type=int, default=1, help='verbose type')
 
 #args = parser.parse_args()
 args = vars(parser.parse_args())
@@ -94,7 +95,7 @@ def main():
     checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=0, save_best_only=True)
     
     
-    model.fit(X_train, Y_train,args["nb_epoch"],args["batch_size"],callbacks=[history,lrate,checkpoint],verbose=2)
+    model.fit(X_train, Y_train,args["nb_epoch"],args["batch_size"],callbacks=[history,lrate,checkpoint],verbose=args["verbose"])
     
 #    filename = "_project-weights-01-2.3003.hdf5"
 #    model.load_weights(filename)
