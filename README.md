@@ -10,4 +10,4 @@ Currently in Development phase
 
 <b>theone@Dell:~/anaconda3$</b> python main.py
 
-(Must add hyperparameters customization)
+(Must add hyperparameters customization --epoch --batch_size via argparse)
