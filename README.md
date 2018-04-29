@@ -1,8 +1,6 @@
 # Project-1.18 - Scheduling Learning Rate in Keras for the MNIST dataset via Linux shell
 
-Currently in Development phase
-
-<b> Instructions :</b>
+Instructions:
 
 <b>theone@Dell:~/anaconda3$</b> git clone https://github.com/RubensZimbres/Project-1.18
 
