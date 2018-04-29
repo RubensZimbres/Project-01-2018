@@ -1,4 +1,4 @@
-# Project-1.18
+# Project-1.18 - Scheduling Learning Rate in Keras for the MNIST dataset
 
 Currently in Development phase
 
