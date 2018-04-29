@@ -1,4 +1,4 @@
-# Project-1.18 - Scheduling Learning Rate in Keras for the MNIST dataset
+# Project-1.18 - Scheduling Learning Rate in Keras for the MNIST dataset via Linux shell
 
 Currently in Development phase
 
@@ -8,6 +8,4 @@ Currently in Development phase
 
 <b>theone@Dell:~/anaconda3$</b> cd Project-1.18
 
-<b>theone@Dell:~/anaconda3$</b> python main.py
-
-(Must add hyperparameters customization --epoch --batch_size via argparse)
+<b>theone@Dell:~/anaconda3$</b> python main.py --epoch=10 --batch_size=10 --verbose=2
