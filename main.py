@@ -95,7 +95,7 @@ def main():
     checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True)
     
     
-    model.fit(X_train, Y_train,args["nb_epoch"],args["batch_size"],args["verbose"],callbacks=[history,lrate,checkpoint])
+    model.fit(X_train, Y_train,nb_epoch=args["nb_epoch"],batch_size=args["batch_size"],verbose=args["verbose"],callbacks=[history,lrate,checkpoint])
     
 #    filename = "_project-weights-01-2.3003.hdf5"
 #    model.load_weights(filename)
