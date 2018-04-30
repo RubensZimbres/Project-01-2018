@@ -6,6 +6,6 @@ Instructions:
 
 <b>theone@Dell:~/anaconda3$</b> cd Project-1.18
 
-<b>theone@Dell:~/anaconda3$</b> python main.py --epoch=10 --batch_size=10 --verbose=2
+<b>theone@Dell:~/anaconda3$</b> python main.py --epoch=2 --batch_size=100 --verbose=1
 
 <img src=https://github.com/RubensZimbres/Project-01-2018/blob/master/Project_1.png>
